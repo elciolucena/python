@@ -1,22 +1,25 @@
-# Arquivos Python
+# Ambientes Virtuais
+venv/
+env/
+.venv/
+
+# Arquivos de Cache Python
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Diretórios Python
-__pycache__/
-.venv/
-
-# Configurações do PyCharm
+# Arquivos de IDE (PyCharm)
 .idea/
+*.iml
+.project
+.settings/
 
-# Arquivos de build/dist
+# Arquivos de Teste/Build
+.pytest_cache/
 dist/
 build/
-*.egg-info/
 
-# Arquivos de ambiente virtual (se não for .venv)
-venv/
-
-# Arquivos de teste
-.pytest_cache/
+# Outros
+*.log
+*.sqlite3

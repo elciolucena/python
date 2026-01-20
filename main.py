@@ -13,4 +13,6 @@ def print_hi(name):
 if __name__ == "__main__":
     print_hi("Elcio Lucena!")
 
+    print("Bem-vindo ao Python!")
+
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
